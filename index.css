@@ -1,3 +1,34 @@
-button {
-    
+.n1{
+    display: flex;
+    margin: 5rem 0rem 0rem 15rem;
+    width: 70rem;
+    height: 40rem;
+    border: solid black 2px;
+}
+.text{
+    text-align: end;
+    text-align: center;
+    margin: 15rem 0rem 0rem 5rem;
+    width: 30rem;
+    height: 20rem;
+    border: solid black 2px;
+}
+.rasm{
+    margin: 5rem 0rem 0rem 0rem;
+    width: 30rem;
+    height: 30rem;
+    border: solid black 2px;
+}
+.get{
+    margin: 3rem 0rem 0rem 3rem;
+    width: 10rem;
+    height: 3rem;
+    border: solid black 2px;
+}
+.promise{
+    margin: 0rem 10rem 0rem 0rem;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 25%;
+    border: solid black 2px;
 }
