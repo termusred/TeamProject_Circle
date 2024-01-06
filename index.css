@@ -50,6 +50,7 @@ nav > .con3 {
 section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 section > .con1{
@@ -103,4 +104,33 @@ section > .con2{
 }
 .get:hover{
     color: white !important;
+}
+.con2 > .title {
+    color: #0CBBC7;
+    margin-top: 5rem;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.con2 > .undertitle {
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.intit {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
