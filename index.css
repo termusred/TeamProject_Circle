@@ -49,6 +49,7 @@
     width: 100vw;
     text-align: center;
     justify-content: center;
+}
 nav {
     display: flex;
     justify-content: space-between;
