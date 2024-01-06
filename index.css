@@ -216,3 +216,9 @@ html {
 ::-webkit-scrollbar {
     width: 0px;
 }
+.clickable{
+    cursor: pointer;
+}
+.defolt {
+    cursor: default;
+}
