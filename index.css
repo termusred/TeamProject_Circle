@@ -61,7 +61,7 @@ nav {
     width: 100vw;
     height: 5rem;
 }
-nav > .con1 {
+nav > .connu {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -353,4 +353,15 @@ html {
 }
 .thirds {
     margin-top: 23rem;
+}
+.PayPal{
+    margin-top: 10rem;
+    width: 100vw;
+    height: 35rem;
+    background-color: aqua;
+}
+.PayPal > .con1{
+    width: 30%;
+    height: 100%;
+    background-color: red;
 }
