@@ -110,7 +110,7 @@ section > .con1{
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    height: 56rem;
+    height: fit-content;
     width: 100vw;
     background-color: var(--con1);
 }
@@ -133,7 +133,6 @@ section > .con2{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 5rem;
 }
 .con1 >.undertitle{
     width: 27.9375rem;
@@ -191,6 +190,11 @@ section > .con2{
     height: 30px;
     flex-shrink: 0;
 }
+.rasm:hover {
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
 .companies {
     display: flex;
     width: 100vw;
@@ -353,4 +357,54 @@ html {
 }
 .thirds {
     margin-top: 23rem;
+}
+.santa {
+    display: flex;
+    position: absolute;
+    top: 77rem;
+    right: 0;
+    height: 10rem;
+    width: 68rem;
+    z-index: 10;
+    animation: san 10s infinite linear ;
+}
+@keyframes san {
+    0% {
+        right: 0rem;
+        width: 0rem;
+    }
+    10% {
+        right: 0rem;
+        width: 15rem;
+    }
+    20% {
+        right: 0rem;
+        width: 30rem;
+    }
+    30% {
+        right: 0rem;
+        width: 45rem;
+    }
+    40% {
+        right: 0rem;
+        width: 60rem;
+    }
+    50% {
+        right: 15rem;
+    }
+    60% {
+        right: 30rem;
+    }
+    70% {
+        right: 45rem;
+    }
+    80% {
+        right: 70rem;
+    }
+    90% {
+        right: 85rem;
+    }
+    100% {
+        right: 100rem;
+    }
 }
