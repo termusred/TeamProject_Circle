@@ -190,11 +190,14 @@ section > .con2{
     height: 30px;
     flex-shrink: 0;
 }
-.rasm:hover {
+.rasm:hover{
     transform: scale(1.5);
     transition: 1.5s;
 }
-
+.company:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
 .companies {
     display: flex;
     width: 100vw;
