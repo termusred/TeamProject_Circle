@@ -95,6 +95,7 @@ nav > .con3 {
     background-image: url(img/circlelogo.png);
 }
 .login {
+    color: black !important;
     height: 3rem;
     width: 10rem;
     margin-bottom: 0.5rem;
@@ -190,13 +191,14 @@ section > .con2{
     height: 30px;
     flex-shrink: 0;
 }
-.rasm:hover{
-    transform: scale(1.5);
-    transition: 1.5s;
-}
 .company:hover{
     transform: scale(1.4);
     transition: 0.5s;
+}
+
+.rasm:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
 }
 .companies {
     display: flex;
@@ -412,13 +414,73 @@ html {
     }
 }
 .PayPal{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
     margin-top: 10rem;
     width: 100vw;
     height: 35rem;
-    background-color: aqua;
 }
 .PayPal > .con1{
-    width: 30%;
+    gap: 3rem;
+    width: 20%;
     height: 100%;
-    background-color: red;
+}
+.start {
+    width: 16rem;
+    height: 6rem;
+}
+.time {
+    width: 12rem;
+    height: 4rem;
+}
+.boi {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 12rem;
+}
+.btn {
+    font-family: sans-serif;
+    color: white;
+}
+.testicals {
+    color: #0CBBC7;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.dauni {
+    width: 70rem !important;
+}
+.carousel-item.active {
+    display: flex;
+    flex-direction: row;
+}
+.lOl {
+    width: 6rem;
+    height: 2rem;
+}
+.cscomment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 16rem;
+}
+.mamont {
+    margin-left: 10rem;
+    width: 26rem;
+    height: 24rem;
+}
+.bruh {
+    width: 8rem;
+    background-color: dodgerblue;
 }
