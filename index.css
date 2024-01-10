@@ -61,7 +61,7 @@ nav {
     width: 100vw;
     height: 5rem;
 }
-nav > .connu {
+nav > .navcon1 {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -115,6 +115,7 @@ section > .con1{
     background-color: var(--con1);
 }
 section > .con2{
+    margin-top: 4rem;
     position: relative;
     height: 40rem;
     width: 100vw;
