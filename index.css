@@ -509,3 +509,16 @@ html {
     font-weight: 700;
     line-height: normal;
 }
+.mac {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+    gap: 10rem;
+}
+.mac > .con1 > .buttuns{
+    display: flex;
+    gap: 2rem;
+}
+.gut , .sch {
+    height: 3rem;
+}
